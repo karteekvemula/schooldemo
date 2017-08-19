@@ -19,7 +19,7 @@ $(function() {
     var salesChartData = {
         labels: ["January", "February", "March", "April", "May", "June", "July", "August"],
         datasets: [{
-                label: "Electronics",
+                label: "Library",
                 fillColor: "rgb(210, 214, 222)",
                 strokeColor: "rgb(210, 214, 222)",
                 pointColor: "rgb(210, 214, 222)",
@@ -29,7 +29,7 @@ $(function() {
                 data: [65, 59, 80, 81, 56, 55, 40, 55]
             },
             {
-                label: "Digital Goods",
+                label: "Other expenses",
                 fillColor: "rgba(60,141,188,0.9)",
                 strokeColor: "rgba(60,141,188,0.8)",
                 pointColor: "#3b8bba",
@@ -228,7 +228,7 @@ $(function() {
             { latLng: [17.38, 78.49], name: 'Hyderabad City' },
             { latLng: [12.97, 77.59], name: 'Bengaluru City' },
             { latLng: [16.50, 80.64], name: 'Vijayawada City' },
-            { latLng: [17.96, 79.59], name: 'Warangal City' },
+            // { latLng: [17.96, 79.59], name: 'Warangal City' },
 
         ]
     });
